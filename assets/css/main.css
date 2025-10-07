@@ -1880,7 +1880,7 @@ p {
 
 .hero-1 {
   position: relative;
-  padding: 280px 0 100px;
+  padding: 0px 0 100px;
   z-index: 9;
 }
 @media (max-width: 1199px) {
@@ -1904,16 +1904,16 @@ p {
   }
 }
 .hero-1 .container-fluid {
-  padding: 0 120px;
+  padding: 400px 120px 0;
 }
 @media (max-width: 1600px) {
   .hero-1 .container-fluid {
-    padding: 0 50px;
+    padding: 300px 50px 0;
   }
 }
 @media (max-width: 1399px) {
   .hero-1 .container-fluid {
-    padding: 0 40px;
+    padding: 300px 40px 0;
   }
 }
 @media (max-width: 1199px) {
@@ -1936,11 +1936,13 @@ p {
   position: absolute;
   left: 0;
   top: 130px;
+  opacity: 0.1;
 }
 .hero-1 .shape-2 {
   position: absolute;
   right: 0;
   top: 28%;
+  opacity: 0.1;
 }
 @media (max-width: 1199px) {
   .hero-1 .shape-2 {
@@ -1959,6 +1961,7 @@ p {
   transform: rotate(30deg);
   line-height: 1;
   z-index: -1;
+  opacity: 0.1;
 }
 .hero-1 .shape-3 span {
   color: #0A031F;
@@ -1981,7 +1984,8 @@ p {
 .hero-1 .shape-4 {
   position: absolute;
   bottom: 26%;
-  left: 48px;
+  right: 100px;
+  opacity: 0.1;
 }
 @media (max-width: 1199px) {
   .hero-1 .shape-4 {
