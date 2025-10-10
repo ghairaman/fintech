@@ -532,7 +532,7 @@ p {
 }
 
 .section-bg {
-  background: #F8EBFF;
+  background: #ebf4ff;
 }
 
 .sect-bg {
@@ -1908,7 +1908,7 @@ p {
 }
 @media (max-width: 1600px) {
   .hero-1 .container-fluid {
-    padding: 300px 50px 0;
+    padding: 450px 50px 0;
   }
 }
 @media (max-width: 1399px) {
@@ -5705,7 +5705,7 @@ p {
   right: -5px;
 }
 .team-wrapper .team-image.hovered img {
-  border-radius: 50%;
+  border-radius: 0%;
 }
 
 .team-section .container-fluid {
