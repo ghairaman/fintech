@@ -12,7 +12,7 @@ Version: 1.0.0
   --body: #fff;
   --black: #000;
   --white: #fff;
-  --theme-color:#A0FFC2;
+  --theme-color:#edb172;
   --theme-color-2:#AF49E5;
   --header:#0A031F;
   --text:#4E5154;
@@ -287,7 +287,7 @@ p {
   animation: spinner 1s infinite linear;
   border-radius: 50%;
   border: 3px solid rgba(0, 0, 0, 0.2);
-  border-top-color: #AF49E5;
+  border-top-color: #F3B64E;
   height: 9em;
   margin: 0 auto 3.5em auto;
   width: 9em;
@@ -310,7 +310,7 @@ p {
   }
 }
 .preloader .animation-preloader .txt-loading .letters-loading {
-  color: #AF49E5;
+  color: #F3B64E;
   position: relative;
 }
 .preloader .animation-preloader .txt-loading .letters-loading:nth-child(2):before {
@@ -350,7 +350,7 @@ p {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: #AF49E5;
+  color: #F3B64E;
 }
 .preloader .loader {
   position: fixed;
@@ -532,7 +532,7 @@ p {
 }
 
 .section-bg {
-  background: #ebf4ff;
+  background: #F5E9CF;
 }
 
 .sect-bg {
@@ -6213,6 +6213,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  opacity: 0.07;
 }
 .video-section .left-image-2 {
   position: absolute;
@@ -6228,6 +6229,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  opacity: 0.5;
 }
 .video-section .right-image {
   position: absolute;
@@ -6243,6 +6245,7 @@ p {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+  opacity: 0.05;
 }
 .video-section .shape-image {
   position: absolute;
@@ -6271,11 +6274,11 @@ p {
 }
 
 .cta-wrapper {
-  padding: 100px 30px;
   border-radius: 12px;
   background-color: var(--theme-color);
   position: relative;
   z-index: 9;
+  min-height: 478px;
 }
 @media (max-width: 767px) {
   .cta-wrapper {
@@ -9409,7 +9412,6 @@ p.sticky-label {
   width: 100%;
   height: 100%;
   content: "";
-  background: linear-gradient(88deg, rgba(10, 3, 31, 0.92) 25.77%, rgba(10, 3, 31, 0.85) 79.43%);
 }
 .footer-section .left-shape {
   position: absolute;
@@ -9469,7 +9471,7 @@ p.sticky-label {
 
 .footer-bottom .footer-bottom-wrapper {
   padding: 22px 0;
-  background-color: rgb(33, 32, 55);
+  background-color: #A95938;
   position: relative;
 }
 .footer-bottom .footer-bottom-wrapper p {
